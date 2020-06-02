@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "605586204478",
+    "firebase_url": "https://gesteducation-278221.firebaseio.com",
+    "project_id": "gesteducation-278221",
+    "storage_bucket": "gesteducation-278221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605586204478:android:8d03731209015dd948ee6f",
+        "android_client_info": {
+          "package_name": "com.iesfranciscodelosrios.gesteducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605586204478-jimma02fjoc7n4mbi9he8mvggtg9ktmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iesfranciscodelosrios.gesteducation",
+            "certificate_hash": "a7ec218d239887773f214bd4720fc0324c6dc549"
+          }
+        },
+        {
+          "client_id": "605586204478-3uskc2gd2lulbsa9l2j4tej3bartjeum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LaX9Fmi-lMuRR9TVIMJs2lL3pRgfhiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605586204478-3uskc2gd2lulbsa9l2j4tej3bartjeum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

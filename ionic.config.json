@@ -1,0 +1,8 @@
+{
+  "name": "GestEducation",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
