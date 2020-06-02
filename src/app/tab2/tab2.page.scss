@@ -1,0 +1,41 @@
+ion-grid {
+	padding: 0px!important;
+	border-top: solid 1px #d2cdcd;
+}
+.input-col {
+	padding-left: 10px;
+}
+.send-col {
+	padding: 0px!important;
+}
+.send-col ion-button {
+	height: 100%!important;
+	margin: 0px!important;
+	border-radius: 0px !important;
+}
+.send-col button {
+	border-radius: 0px !important;
+}
+.send-col ion-icon {
+	font-size: 20px!important;
+}
+ion-content,ion-toolbar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b577b+1,341a4a+100 */
+    --ion-background-color: #9d9fa6;
+    /* Old browsers */
+    --ion-background-color: -moz-linear-gradient(-45deg,  #9d9fa6 1%, #ffffff 100%);
+    /* FF3.6-15 */
+    --ion-background-color: -webkit-linear-gradient(-45deg,  #9d9fa6 1%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    --ion-background-color: linear-gradient(135deg,  #9d9fa6 1%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.stream ion-item {
+    min-height: fit-content !important;
+    height: 51px;
+}
+ion-badge {
+    padding: 10px!important;
+    text-align: left;
+    max-width: 80%;
+}

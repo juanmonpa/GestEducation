@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar class="toolbar">
+    <img src="/assets/icon.png" width="40px" style="display:inline-block" height="40px"/>
+    <ion-title style="display:inline-block" >GestEducation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-buttons>
+    <ion-back-button defaultHref="/"></ion-back-button>
+    <ion-title style="text-align: left;font-weight: normal;font-size: 1.1rem;margin-bottom:15px;margin-top:15px">Perfil</ion-title>
+  </ion-buttons>
+  <ion-img [src]="this.auth.user.imageUrl"></ion-img>
+  <ion-title style="text-align: center;font-weight: normal;font-size: 1.1rem;margin-bottom:15px;margin-top:15px">Email: {{this.auth.user.email}}</ion-title>
+  <ion-title style="text-align: center;font-weight: normal;font-size: 1.1rem;margin-bottom:15px;margin-top:15px">Nombre: {{this.auth.user.displayName}}</ion-title>
+  <ion-title style="text-align: center;font-weight: normal;font-size: 1.1rem;margin-bottom:15px;margin-top:15px">Identificador: {{this.auth.user.userId}} </ion-title>
+</ion-content>

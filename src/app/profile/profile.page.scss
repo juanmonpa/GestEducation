@@ -1,0 +1,38 @@
+ion-content,ion-toolbar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b577b+1,341a4a+100 */
+    --ion-background-color: #9d9fa6;
+    /* Old browsers */
+    --ion-background-color: -moz-linear-gradient(-45deg,  #9d9fa6 1%, #ffffff 100%);
+    /* FF3.6-15 */
+    --ion-background-color: -webkit-linear-gradient(-45deg,  #9d9fa6 1%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    --ion-background-color: linear-gradient(135deg,  #9d9fa6 1%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.icon{
+    max-width: 32vh;
+    display: block;
+    margin: 0 auto;
+}
+ion-img {
+    //Centrar imagen
+    width: 15%;
+    margin: 0 auto;
+}
+ion-input, ion-item{
+    --background: transparent;
+}
+
+.text-danger{
+    color: #cf3c4f;
+}
+.toolbar{
+    --background: #9d9fa6;
+    color: black;
+    text-align: center;
+    font-family:cursive;
+    padding: auto;
+    display:inline-block;
+    display: block;
+    margin: 0 auto;
+}

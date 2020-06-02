@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/cloud-add">
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Documentos multimedia</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="refreshEntries($event)">
+    <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Pull to refresh" refreshingSpinner="circles"
+      refreshingText="Actualizando...">
+    </ion-refresher-content>
+  </ion-refresher>
+  <ion-list #dynamicList id="dynamicList">
+    <ion-item *ngFor="let f of cloudFiles">
+      <ion-button slot="start" (click)="openExternal(f.url)">
+        <ion-icon name="open" slot="icon-only"></ion-icon>
+      </ion-button>
+      
+      <ion-label class="ion-text-wrap">
+        {{ f.name }}
+        <p>{{ f.full }}</p>
+      </ion-label>
+ 
+      <ion-button slot="end" (click)="deleteFile(f.ref)" color="danger">
+        <ion-icon name="trash" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
